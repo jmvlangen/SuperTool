@@ -1,0 +1,28 @@
+name: SuperTool
+main: mcmount.trainjo.supertool.SuperTool
+version: 1.0
+commands:
+    supertool:
+        description: command for supertool information
+        usage: /supertool
+    lefttool:
+        description: command to switch the left tool
+        usage: /lefttool <tool>
+    righttool:
+        description: command to switch the right tool
+        usage: /righttool <tool>
+    toolset:
+        description: command to switch the toolset
+        usage: /toolset <toolset>
+    swap:
+        description: swaps the current player selection
+        usage: /swap <material>
+    material:
+        description: sets the material used
+        usage: /material <material>
+    size:
+        description: changes the size of your tool
+        usage: /size <size>
+    shape:
+        description: changes the shape of your tool
+        usage: /shape <shape>
